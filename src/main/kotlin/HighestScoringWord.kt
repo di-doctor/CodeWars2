@@ -1,4 +1,5 @@
 fun main() {
+
     val strarr = arrayOf("tree", "foling", "trashy", "blue", "abcdef", "uvwxyz")
     val k = 2
     println(longestConsec2(strarr, k))
