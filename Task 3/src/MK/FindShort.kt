@@ -1,4 +1,4 @@
-package Main.Kotlin
+package MK
 
 import kotlin.random.Random
 
@@ -6,6 +6,7 @@ fun foo(param: Int, execute: (x: Int) -> Int): Int {
 
     return execute(param)
 }
+
 
 fun Int.cub(): Int {
     return this * this * this
@@ -18,6 +19,7 @@ fun main() {
 
     foo(3, Int::cub).also { println(it) }
     val value = 10
+
 
 
 
